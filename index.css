@@ -1,0 +1,112 @@
+.headbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+.myself{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+.name{
+    color: white;
+    padding: 0 10px;
+    font-size:2.75vw;
+    text-shadow: gray 5px 5px 5px;
+}
+.present{
+    justify-content: center;
+    padding-top: 9.5px;
+    padding-left: 10px;
+    color: rgb(177, 173, 173);
+    font-size: 2.5vw;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navcontent{
+    padding: 0 10.2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+}
+.navcontent:hover{
+    background-color:  #fbc67b;
+    border-radius: 5px;
+}
+.navcontent:hover a{
+    color: #a01c16;
+}
+#homepage{
+    border: solid 1px;
+    border-radius: 5px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1.2%;
+    border-top: dashed 5px #fce4d9;
+    padding-top: 5%;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pic img{
+    width: 25vw;
+    border: solid 2.5px;
+    border-radius: 50%;
+    box-shadow: #000 5px 5px 5px;
+}
+.pic img:hover{
+    scale: 1.01;
+    transition: all ease  0.05s;
+}
+.aboutme{
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.about-me h2{
+    color:gold;
+}
+.about-me{
+    border: solid 2px aqua;
+    border-radius: 15px;
+}
+.myName{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+    font-weight: 900;
+    background-image: url(background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+footer{
+    color: rgb(177, 173, 173);
+    text-align: center;
+    background-color: black; border: solid 1px white;
+    border-radius: 25px;
+}
+footer a{
+    color: white;
+}

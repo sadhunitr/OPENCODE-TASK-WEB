@@ -1,0 +1,83 @@
+.headbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-bottom: dashed 5px #fce4d9;
+    padding-bottom: 18px;
+}
+.myself{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+.name{
+    color: white;
+    padding: 0 10px;
+    font-size:2.75vw;
+    text-shadow: gray 5px 5px 5px;
+}
+.present{
+    justify-content: center;
+    padding-top: 9.5px;
+    padding-left: 10px;
+    color: rgb(177, 173, 173);
+    font-size: 2.5vw;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navcontent{
+    padding: 0 10.2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+}
+.navcontent:hover{
+    background-color:  #fbc67b;
+    border-radius: 5px;
+}
+.navcontent:hover a{
+    color: #a01c16;
+}
+#achievepage{
+    border: solid 1px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.achievements{
+    text-align: center;
+    color: black;
+}
+.myachievements{
+    margin-left: 300px;
+    margin-right: 300px;
+    color: black;
+    background-color: #fbc67b;
+    border-radius: 10px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+body{
+    background: rgb(78, 93, 0);
+    background: linear-gradient(90deg, rgb(78, 93, 0) 0%, rgb(91, 121, 9) 35%, rgb(200, 255, 0) 100%);
+}
+footer{
+    color: rgb(177, 173, 173);
+    text-align: center;
+    background-color: black; border: solid 1px white;
+    border-radius: 25px;
+}
+footer a{
+    color: white;
+}
